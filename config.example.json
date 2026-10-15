@@ -1,0 +1,8 @@
+{
+  "model_id": "us.anthropic.claude-sonnet-4-5-20250929-v1:0",
+  "region": "us-east-1",
+  "knowledge_base_id": "PASTE_YOUR_KNOWLEDGE_BASE_ID_HERE",
+  "langfuse_public_key": "",
+  "langfuse_secret_key": "",
+  "langfuse_host": "https://us.cloud.langfuse.com"
+}

@@ -1,0 +1,6 @@
+# From Zero to Secure Agent (All Things Open 2026)
+# Strands Agents SDK + AWS SDK. Strands is pinned to the version verified end to end on the workshop desktop.
+# [otel] adds the OpenTelemetry exporter used to send traces to Langfuse (Stage 6).
+strands-agents[otel]==1.60.0
+boto3>=1.35
+requests>=2.32
