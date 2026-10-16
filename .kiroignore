@@ -1,0 +1,4 @@
+# Keep Kiro's agent out of the answer keys, so it builds each stage from your
+# prompts instead of copying them. You can still open and run these files yourself.
+# (Kiroignore: https://kiro.dev/docs/kiroignore/ - delete this file to let Kiro read them.)
+solutions/
