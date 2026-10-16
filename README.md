@@ -32,7 +32,7 @@ The question asked in Stages 1–3:
 ## Prerequisites
 
 - Python 3.10 or later
-- AWS credentials that can call Amazon Bedrock, with access to **Claude Sonnet 4.5**
+- AWS credentials that can call Amazon Bedrock, with access to **Claude Sonnet 5.5**
   (Stages 1–3) and **Claude Haiku 4.5** (Stages 4–6) in a US Region
 - *Stage 2 only:* an Amazon Bedrock Knowledge Base containing clinical-trial
   documents. Without one, skip from Stage 1 to Stage 3; Stages 3–6 don't need it.

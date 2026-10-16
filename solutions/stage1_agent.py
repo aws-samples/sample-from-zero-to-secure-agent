@@ -1,7 +1,7 @@
 """From Zero to Secure Agent - your starting point (Stage 1: the baseline agent).
 
 This is the whole agent. It has three parts:
-  1. a MODEL      - Claude Sonnet 4.5, running on Amazon Bedrock
+  1. a MODEL      - Claude Sonnet 5.5, running on Amazon Bedrock
   2. a SYSTEM PROMPT - the standing instructions that shape how it answers
   3. a RUN step   - we hand it the patient's question and print the answer
 
@@ -39,11 +39,10 @@ QUESTION = (
 
 
 def build_agent():
-    # --- 1. The model: Claude Sonnet 4.5 on Amazon Bedrock -------------------
+    # --- 1. The model: Claude Sonnet 5.5 on Amazon Bedrock -------------------
     model = BedrockModel(
         model_id=MODEL_ID,
         region_name=REGION,
-        temperature=0.3,
     )
     # Assemble the agent from the model + the system prompt.
     # callback_handler=None turns off Strands' live token streaming so we print

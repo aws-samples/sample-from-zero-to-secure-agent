@@ -1,5 +1,5 @@
 {
-  "model_id": "us.anthropic.claude-sonnet-4-5-20250929-v1:0",
+  "model_id": "us.anthropic.claude-sonnet-5-5",
   "region": "us-east-1",
   "knowledge_base_id": "PASTE_YOUR_KNOWLEDGE_BASE_ID_HERE",
   "langfuse_public_key": "",

@@ -85,7 +85,7 @@ Be clear and compassionate."""
 
 
 def build_agent():
-    model = BedrockModel(model_id=MODEL_ID, region_name=REGION, temperature=0.3)
+    model = BedrockModel(model_id=MODEL_ID, region_name=REGION)
     # Registering the tool is all it takes - Strands runs the loop for us.
     return Agent(
         model=model,

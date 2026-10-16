@@ -61,7 +61,7 @@ RETRIEVED CLINICAL TRIALS:
 
 
 def build_agent(grounding_text):
-    model = BedrockModel(model_id=MODEL_ID, region_name=REGION, temperature=0.3)
+    model = BedrockModel(model_id=MODEL_ID, region_name=REGION)
     system_prompt = SYSTEM_PROMPT_TEMPLATE.format(grounding=grounding_text)
     return Agent(model=model, system_prompt=system_prompt, callback_handler=None)
 

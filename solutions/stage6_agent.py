@@ -198,6 +198,9 @@ MODE = "all-layers"  # or "policy-only" for the "what if a layer fails?" demo
 
 
 def build_agent():
+    # temperature=0.3 keeps the attack demo reliable on Claude Haiku 4.5. Newer Claude
+    # models (Sonnet 5.5, Haiku 5.5) reject the temperature setting: remove it if you
+    # change PORTAL_MODEL_ID to one of them.
     model = BedrockModel(model_id=PORTAL_MODEL_ID, region_name=REGION, temperature=0.3)
     if MODE == "policy-only":
         # Worst case: the gullible Stage 4 prompt and only ONE layer of defense.
