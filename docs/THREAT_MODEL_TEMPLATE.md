@@ -1,5 +1,4 @@
-# Threat Model Template for AI Agents
-
+# Threat model template for AI agents
 A one-page template for threat modeling any agent. Copy it, fill it in for your
 own system, and revisit it whenever you add a tool, a data source or an
 integration. A worked example for the Riverside Health portal agent from the

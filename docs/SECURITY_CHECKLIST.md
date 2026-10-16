@@ -1,5 +1,4 @@
-# Security Controls Checklist for AI Agents
-
+# Security controls checklist for AI agents
 A practical checklist for any agent framework (Strands, LangGraph, CrewAI, the
 OpenAI Agents SDK, Semantic Kernel, …). The patterns are framework-agnostic: all
 you need is a hook or middleware that runs before tool calls and after tool
