@@ -16,7 +16,7 @@ or running commands to inspect the `strands` package.
   `appointment_owner(appointment_id)`, `find_injection_markers(text)`, and the
   scorecard.
 
-## Strands hooks API (strands-agents 1.60)
+## Strands hooks API (strands-agents 1.61)
 
 ```python
 from strands.hooks import HookProvider, HookRegistry, BeforeToolCallEvent, AfterToolCallEvent
